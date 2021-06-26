@@ -1,10 +1,12 @@
 import React from 'react'
+import Carousel from './components/Carousel.component'
 
 const App = () => {
     return (
-        <h1>
-            App
-        </h1>
+        <div className="app">
+            <Carousel />
+        </div>
+
     )
 }
 

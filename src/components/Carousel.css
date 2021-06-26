@@ -1,0 +1,43 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+}
+.carousel ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  border: 1px #808080 solid;
+  border-radius: 4px;
+  background-color: #0f9c2e;
+}
+.carousel img {
+  width: 30vw;
+  height: 300px;
+}
+
+.center-slide {
+  width: 30vw;
+  height: 400px;
+}
+
+.carousel h3 {
+  padding: 0;
+}
+.carousel button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+}
